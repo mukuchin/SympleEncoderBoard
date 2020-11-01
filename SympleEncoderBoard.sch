@@ -11216,8 +11216,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <part name="GYRO" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="IC2" library="MCP2551-I_SN" deviceset="MCP2551-I_SN" device=""/>
 <part name="BOX10P-L1" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
 <part name="U$2" library="SympleEncoderBoard" deviceset="BP5293-33" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150"/>
 </parts>
 <sheets>
 <sheet>
@@ -11315,6 +11316,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <attribute name="VALUE" x="-17.81" y="49.698" size="1.778" layer="96"/>
 </instance>
 <instance part="U$2" gate="G$1" x="41.18" y="133.46" smashed="yes"/>
+<instance part="R3" gate="G$1" x="32" y="93" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.5014" y="89.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="35.302" y="89.19" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 <bus name="+3.3V,GND,NRST,SWCLK,SWDIO,SWO,VCP_RX,VCP_TX">
@@ -11454,15 +11459,15 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <label x="254" y="66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="POWER" gate="G$1" pin="A"/>
-<wire x1="32" y1="83.54" x2="32" y2="102" width="0.1524" layer="91"/>
-<label x="32" y="103" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="VOUT"/>
 <wire x1="44.18" y1="123.46" x2="44.18" y2="102" width="0.1524" layer="91"/>
 <wire x1="44.18" y1="102" x2="44" y2="102" width="0.1524" layer="91"/>
 <label x="45" y="95" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="32" y1="98.08" x2="32" y2="102" width="0.1524" layer="91"/>
+<label x="32" y="103" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11634,6 +11639,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <pinref part="IC2" gate="G$1" pin="VSS"/>
 <wire x1="-50" y1="50.46" x2="-60" y2="50.46" width="0.1524" layer="91"/>
 <wire x1="-60" y1="50.46" x2="-60" y2="50" width="0.1524" layer="91"/>
+<label x="-61" y="51" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="BOX10P-L1" gate="G$1" pin="P$4"/>
@@ -11832,6 +11838,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <segment>
 <pinref part="IC2" gate="G$1" pin="TXD"/>
 <wire x1="-50" y1="53" x2="-60" y2="53" width="0.1524" layer="91"/>
+<label x="-61" y="54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="CAN_RX" class="0">
@@ -11845,6 +11852,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <pinref part="IC2" gate="G$1" pin="RXD"/>
 <wire x1="-50" y1="45.38" x2="-60" y2="45.38" width="0.1524" layer="91"/>
 <wire x1="-60" y1="45.38" x2="-60" y2="45" width="0.1524" layer="91"/>
+<label x="-61" y="46" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="ERRORLED" class="0">
@@ -12209,6 +12217,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <pinref part="IC2" gate="G$1" pin="VDD"/>
 <wire x1="-50" y1="47.92" x2="-60" y2="47.92" width="0.1524" layer="91"/>
 <wire x1="-60" y1="47.92" x2="-60" y2="48" width="0.1524" layer="91"/>
+<label x="-61" y="48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="BOX10P-L1" gate="G$1" pin="P$1"/>
@@ -12270,6 +12279,13 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/0402904P"&gt; Datashe
 <wire x1="38.18" y1="123.46" x2="38.18" y2="102" width="0.1524" layer="91"/>
 <wire x1="38.18" y1="102" x2="38" y2="102" width="0.1524" layer="91"/>
 <label x="39" y="95" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="POWER" gate="G$1" pin="A"/>
+<wire x1="32" y1="87.92" x2="32" y2="83.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
