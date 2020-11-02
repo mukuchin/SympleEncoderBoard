@@ -82,8 +82,8 @@
 <hole x="48.26" y="2.54" drill="3.5"/>
 <hole x="48.26" y="48.26" drill="3.5"/>
 <hole x="2.54" y="48.26" drill="3.5"/>
-<text x="42" y="43" size="2.54" layer="25">KRP</text>
-<text x="6" y="1" size="1.27" layer="25">Symple
+<text x="6" y="2" size="2.54" layer="25">KRP</text>
+<text x="41" y="39" size="1.778" layer="25">Symple
 Encoder
 Board</text>
 </plain>
@@ -1667,6 +1667,34 @@ Sourc: www.ctscorp.com</description>
 </package>
 </packages>
 </library>
+<library name="B4B-XH-A_LF__SN_">
+<description>&lt;XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SHDR4W64P0X250_1X4_1240X575X70">
+<description>&lt;b&gt;B4B-XH-A(LF)(SN)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1.1" diameter="1.65"/>
+<pad name="3" x="5" y="0" drill="1.1" diameter="1.65"/>
+<pad name="4" x="7.5" y="0" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.7" y1="-2.6" x2="-2.7" y2="3.65" width="0.05" layer="51"/>
+<wire x1="-2.7" y1="3.65" x2="10.2" y2="3.65" width="0.05" layer="51"/>
+<wire x1="10.2" y1="3.65" x2="10.2" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="10.2" y1="-2.6" x2="-2.7" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="3.4" x2="9.95" y2="3.4" width="0.1" layer="51"/>
+<wire x1="9.95" y1="3.4" x2="9.95" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="9.95" y1="-2.35" x2="-2.45" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="0" y1="-2.35" x2="9.95" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="9.95" y1="-2.35" x2="9.95" y2="3.4" width="0.2" layer="21"/>
+<wire x1="9.95" y1="3.4" x2="-2.45" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="3.4" x2="-2.45" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1951,16 +1979,6 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="28" x="-15.5" y="-40" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="39.11" y="10.165" size="1.27" layer="27"/>
 </element>
-<element name="GYRO" library="S4B-XH-A_LF__SN_" package="SHDRRA4W64P0X250_1X4_1240X1150" value="S4B-XH-A_LF__SN_" x="10.87" y="46.1" smashed="yes">
-<attribute name="DESCRIPTION" value="XH-2.5mm Header side entry 4 way JST XH Series, Series Number S4B, 2.5mm Pitch 4 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="35" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="7mm" x="35" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="35" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="S4B-XH-A(LF)(SN)" x="35" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.87" y="56.1" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="8201589P" x="35" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201589P" x="35" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.87" y="59.1" size="1.27" layer="27" align="center"/>
-</element>
 <element name="IC1" library="STM32F446RET6" package="QFP50P1200X1200X160-64N" value="STM32F446RET6" x="22.5" y="29.18" smashed="yes">
 <attribute name="DESCRIPTION" value="32-Bit MCU+DSP 512K Flash 180MHz LQFP64 STMicroelectronics STM32F446RET6, 32bit ARM Cortex M4 MCU, 180MHz, 512 kB Flash, 64-Pin LQFP" x="86" y="-14" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.6mm" x="86" y="-14" size="1.778" layer="27" display="off"/>
@@ -2052,6 +2070,16 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="73" x="27" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="27" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="27.635" y="20.905" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="GYRO" library="B4B-XH-A_LF__SN_" package="SHDR4W64P0X250_1X4_1240X575X70" value="B4B-XH-A_LF__SN_" x="10" y="47" smashed="yes">
+<attribute name="DESCRIPTION" value="XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A" x="10" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="10" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="10" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B4B-XH-A(LF)(SN)" x="10" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7" y="52" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8201551P" x="10" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201551P" x="10" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13" y="54" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2169,10 +2197,8 @@ design rules under a new name.</description>
 <wire x1="9.4686" y1="22.5386" x2="13.31" y2="26.38" width="0.508" layer="1"/>
 <wire x1="9.684" y1="21.7846" x2="9.4686" y2="22" width="0.508" layer="1"/>
 <wire x1="9.684" y1="21.7846" x2="15.2154" y2="21.7846" width="0.508" layer="1"/>
-<wire x1="19.75" y1="23.442" x2="19.75" y2="22.25" width="0.3048" layer="1"/>
-<wire x1="20.5428" y1="20.2028" x2="19.76" y2="19.42" width="0.3048" layer="1"/>
-<wire x1="19.75" y1="22.25" x2="20.5428" y2="21.4572" width="0.3048" layer="1"/>
-<wire x1="20.5428" y1="21.4572" x2="20.5428" y2="20.2028" width="0.3048" layer="1"/>
+<wire x1="19.75" y1="23.442" x2="19.75" y2="19.43" width="0.3048" layer="1"/>
+<wire x1="19.76" y1="19.42" x2="19.75" y2="19.43" width="0.3048" layer="1"/>
 <wire x1="15.2154" y1="21.7846" x2="16" y2="21" width="0.508" layer="1"/>
 <wire x1="16" y1="21" x2="19" y2="21" width="0.508" layer="1"/>
 <wire x1="19" y1="21" x2="19.6847375" y2="20.3152625" width="0.508" layer="1"/>
@@ -2230,7 +2256,6 @@ design rules under a new name.</description>
 <contactref element="ENCODER4" pad="1"/>
 <contactref element="ENCODER_X" pad="1"/>
 <contactref element="ENCODER_Y" pad="1"/>
-<contactref element="GYRO" pad="1"/>
 <contactref element="U$2" pad="P$2"/>
 <contactref element="BOX10P-L1" pad="P$7"/>
 <contactref element="BOX10P-L1" pad="P$8"/>
@@ -2255,8 +2280,6 @@ design rules under a new name.</description>
 <wire x1="19.25" y1="22.25" x2="19" y2="22" width="0.3048" layer="1"/>
 <wire x1="19" y1="22" x2="18" y2="22" width="0.3048" layer="1"/>
 <via x="18" y="22" extent="1-16" drill="0.35"/>
-<wire x1="18.06" y1="19.42" x2="17.48" y2="20" width="0.3048" layer="1"/>
-<wire x1="17.48" y1="20" x2="16" y2="20" width="0.3048" layer="1"/>
 <via x="16" y="20" extent="1-16" drill="0.35"/>
 <wire x1="18" y1="22" x2="16" y2="20" width="0.3048" layer="16"/>
 <wire x1="14.42" y1="35.86" x2="13.14" y2="35.86" width="0.508" layer="1"/>
@@ -2303,35 +2326,21 @@ design rules under a new name.</description>
 <wire x1="18" y1="39" x2="19" y2="39" width="0.508" layer="16"/>
 <wire x1="16.762" y1="27.43" x2="13.96" y2="27.43" width="0.3048" layer="1"/>
 <wire x1="13.96" y1="27.43" x2="13.31" y2="28.08" width="0.3048" layer="1"/>
-<wire x1="35.99" y1="45.2" x2="35.99" y2="47.74" width="0" layer="19" extent="1-1"/>
-<wire x1="35.23" y1="37.88" x2="35.99" y2="45.2" width="0" layer="19" extent="1-1"/>
-<wire x1="39.365" y1="26.3" x2="36" y2="32" width="0" layer="19" extent="1-1"/>
-<wire x1="39.15" y1="24" x2="39.365" y2="26.3" width="0" layer="19" extent="1-1"/>
-<wire x1="41.06" y1="18.53" x2="42" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="41.06" y1="14.39" x2="41.06" y2="16.58" width="0" layer="19" extent="1-1"/>
-<wire x1="41.13" y1="12.07" x2="41.06" y2="14.39" width="0" layer="19" extent="1-1"/>
-<wire x1="46.54" y1="17.77" x2="42" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="36.63" y1="9.26" x2="41.13" y2="12.07" width="0" layer="19" extent="1-1"/>
-<wire x1="40.45" y1="4.46" x2="36.63" y2="9.26" width="0" layer="19" extent="1-1"/>
-<wire x1="28.22" y1="7.39" x2="36.63" y2="9.26" width="0" layer="19" extent="1-1"/>
-<wire x1="25.68" y1="7.39" x2="28.22" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="23.14" y1="7.39" x2="25.68" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="20.6" y1="7.39" x2="23.14" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="18.06" y1="7.39" x2="20.6" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="15.52" y1="7.39" x2="18.06" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="12.98" y1="7.39" x2="15.52" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="10.44" y1="7.39" x2="12.98" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="25.13" y1="4.46" x2="25.68" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="4.68" y1="10.55" x2="10.44" y2="7.39" width="0" layer="19" extent="1-1"/>
-<wire x1="19.25" y1="34.918" x2="28.238" y2="32.43" width="0" layer="19" extent="1-1"/>
-<wire x1="13.31" y1="28.08" x2="13.31" y2="30.95" width="0" layer="19" extent="1-1"/>
-<wire x1="19.25" y1="23.442" x2="16.762" y2="27.43" width="0" layer="19" extent="1-1"/>
-<wire x1="8.595" y1="40.64" x2="13" y2="36" width="0" layer="19" extent="1-1"/>
-<wire x1="7.325" y1="40.64" x2="8.595" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="4.785" y1="40.64" x2="7.325" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="10.87" y1="46.1" x2="8.595" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="4.68" y1="25.23" x2="13.31" y2="28.08" width="0" layer="19" extent="1-1"/>
-<wire x1="46.32" y1="33.13" x2="39.365" y2="26.3" width="0" layer="19" extent="1-1"/>
+<wire x1="18.06" y1="19.42" x2="16.58" y2="19.42" width="0.3048" layer="1"/>
+<wire x1="16.58" y1="19.42" x2="16" y2="20" width="0.3048" layer="1"/>
+<contactref element="GYRO" pad="1"/>
+<polygon width="0.3048" layer="16">
+<vertex x="1" y="50"/>
+<vertex x="1" y="1"/>
+<vertex x="50" y="1"/>
+<vertex x="50" y="50"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="1" y="50"/>
+<vertex x="1" y="1"/>
+<vertex x="50" y="1"/>
+<vertex x="50" y="50"/>
+</polygon>
 </signal>
 <signal name="NRST">
 <contactref element="IC1" pad="7"/>
@@ -2450,22 +2459,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="IC1" pad="52"/>
-<contactref element="GYRO" pad="3"/>
 <wire x1="24.75" y1="34.918" x2="24.75" y2="37.25" width="0.3048" layer="1"/>
 <wire x1="24.75" y1="37.25" x2="24" y2="38" width="0.3048" layer="1"/>
-<wire x1="15.87" y1="46.1" x2="18.97" y2="43" width="0.3048" layer="1"/>
-<wire x1="18.97" y1="43" x2="19" y2="43" width="0.3048" layer="1"/>
 <via x="19" y="43" extent="1-16" drill="0.35"/>
 <via x="24" y="38" extent="1-16" drill="0.35"/>
 <wire x1="19" y1="43" x2="24" y2="38" width="0.3048" layer="16"/>
+<contactref element="GYRO" pad="3"/>
+<wire x1="19" y1="43" x2="15" y2="47" width="0.3048" layer="1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="IC1" pad="49"/>
 <contactref element="U$1" pad="6"/>
-<wire x1="26.25" y1="34.918" x2="26.2048" y2="34.9632" width="0.3048" layer="1"/>
-<wire x1="26.2048" y1="34.9632" x2="26.2048" y2="35.78175" width="0.3048" layer="1"/>
-<wire x1="26" y1="35.98655" x2="26" y2="38" width="0.3048" layer="1"/>
-<wire x1="26.2048" y1="35.78175" x2="26" y2="35.98655" width="0.3048" layer="1"/>
 <wire x1="8.595" y1="39.37" x2="8.595" y2="38.405" width="0.3048" layer="16"/>
 <wire x1="8.595" y1="38.405" x2="9" y2="38" width="0.3048" layer="16"/>
 <wire x1="9" y1="38" x2="12" y2="38" width="0.3048" layer="16"/>
@@ -2474,10 +2478,12 @@ design rules under a new name.</description>
 <wire x1="26" y1="38" x2="24" y2="40" width="0.3048" layer="16"/>
 <via x="24" y="40" extent="1-16" drill="0.35"/>
 <via x="16" y="42" extent="1-16" drill="0.35"/>
-<wire x1="22.9398" y1="41.0602" x2="22.08071875" y2="41.0602" width="0.3048" layer="1"/>
-<wire x1="21.14091875" y1="42" x2="16" y2="42" width="0.3048" layer="1"/>
-<wire x1="22.08071875" y1="41.0602" x2="21.14091875" y2="42" width="0.3048" layer="1"/>
-<wire x1="24" y1="40" x2="22.9398" y2="41.0602" width="0.3048" layer="1"/>
+<wire x1="23.9398" y1="40.0602" x2="22.08071875" y2="40.0602" width="0.3048" layer="1"/>
+<wire x1="20.14091875" y1="42" x2="16" y2="42" width="0.3048" layer="1"/>
+<wire x1="22.08071875" y1="40.0602" x2="20.14091875" y2="42" width="0.3048" layer="1"/>
+<wire x1="24" y1="40" x2="23.9398" y2="40.0602" width="0.3048" layer="1"/>
+<wire x1="26.25" y1="34.918" x2="26.25" y2="37.75" width="0.3048" layer="1"/>
+<wire x1="26.25" y1="37.75" x2="26" y2="38" width="0.3048" layer="1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="IC1" pad="46"/>
@@ -2512,14 +2518,12 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="P$4"/>
 <via x="32" y="31" extent="1-16" drill="0.35"/>
 <via x="41" y="29" extent="1-16" drill="0.35"/>
-<wire x1="28.238" y1="30.93" x2="28.2808" y2="30.9728" width="0.3048" layer="1"/>
-<wire x1="28.2808" y1="30.9728" x2="31.61938125" y2="30.9728" width="0.3048" layer="1"/>
-<wire x1="31.61938125" y1="30.9728" x2="31.64658125" y2="31" width="0.3048" layer="1"/>
-<wire x1="31.64658125" y1="31" x2="32" y2="31" width="0.3048" layer="1"/>
 <wire x1="32" y1="31" x2="39" y2="31" width="0.3048" layer="16"/>
 <wire x1="39" y1="31" x2="41" y2="29" width="0.3048" layer="16"/>
 <wire x1="41.905" y1="26.3" x2="41.905" y2="28.095" width="0.3048" layer="1"/>
 <wire x1="41.905" y1="28.095" x2="41" y2="29" width="0.3048" layer="1"/>
+<wire x1="32" y1="31" x2="31.93" y2="30.93" width="0.3048" layer="1"/>
+<wire x1="31.93" y1="30.93" x2="28.238" y2="30.93" width="0.3048" layer="1"/>
 </signal>
 <signal name="ERRORLED">
 <contactref element="IC1" pad="43"/>
@@ -2676,14 +2680,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="IC1" pad="29"/>
-<contactref element="GYRO" pad="2"/>
 <wire x1="24.75" y1="23.442" x2="24.75" y2="24.75" width="0.3048" layer="1"/>
 <wire x1="24.75" y1="24.75" x2="25" y2="25" width="0.3048" layer="1"/>
 <wire x1="25" y1="25" x2="25" y2="27" width="0.3048" layer="1"/>
 <via x="25" y="27" extent="1-16" drill="0.35"/>
-<wire x1="24.2829125" y1="27.7170875" x2="25" y2="27" width="0.3048" layer="16"/>
-<wire x1="13.37" y1="46.1" x2="24.2829125" y2="35.1870875" width="0.3048" layer="16"/>
-<wire x1="24.2829125" y1="35.1870875" x2="24.2829125" y2="27.7170875" width="0.3048" layer="16"/>
+<contactref element="GYRO" pad="2"/>
+<wire x1="25" y1="30.10593125" x2="25" y2="27" width="0.3048" layer="16"/>
+<wire x1="24.3678" y1="30.73813125" x2="25" y2="30.10593125" width="0.3048" layer="16"/>
+<wire x1="12.5" y1="47" x2="24.3678" y2="35.1322" width="0.3048" layer="16"/>
+<wire x1="24.3678" y1="35.1322" x2="24.3678" y2="30.73813125" width="0.3048" layer="16"/>
 </signal>
 <signal name="SW4">
 <contactref element="IC1" pad="28"/>
@@ -2836,7 +2841,6 @@ design rules under a new name.</description>
 <contactref element="ENCODER4" pad="4"/>
 <contactref element="ENCODER_X" pad="4"/>
 <contactref element="ENCODER_Y" pad="4"/>
-<contactref element="GYRO" pad="4"/>
 <contactref element="BOX10P-L1" pad="P$10"/>
 <contactref element="BOX10P-L1" pad="P$9"/>
 <contactref element="U$3" pad="P$3"/>
@@ -2849,11 +2853,7 @@ design rules under a new name.</description>
 <wire x1="46.54" y1="10.27" x2="48.73" y2="10.27" width="1.27" layer="1"/>
 <wire x1="48.73" y1="10.27" x2="49" y2="10" width="1.27" layer="1"/>
 <wire x1="38.53" y1="45.2" x2="35.33" y2="42" width="1.27" layer="1"/>
-<wire x1="22.47" y1="42" x2="18.37" y2="46.1" width="1.27" layer="1"/>
 <wire x1="35.33" y1="42" x2="22.47" y2="42" width="1.27" layer="1"/>
-<wire x1="18.37" y1="46.1" x2="15.47" y2="49" width="1.27" layer="1"/>
-<wire x1="15.47" y1="49" x2="9" y2="49" width="1.27" layer="1"/>
-<wire x1="9" y1="49" x2="1.651" y2="41.651" width="1.27" layer="1"/>
 <wire x1="1.651" y1="21.079" x2="4.68" y2="18.05" width="1.27" layer="1"/>
 <wire x1="1.651" y1="41.651" x2="1.651" y2="33" width="1.27" layer="1"/>
 <wire x1="1.651" y1="33" x2="1.651" y2="21.079" width="1.27" layer="1"/>
@@ -2876,6 +2876,13 @@ design rules under a new name.</description>
 <wire x1="49" y1="26" x2="49" y2="10" width="1.27" layer="1"/>
 <wire x1="46.32" y1="25.63" x2="46.69" y2="26" width="1.27" layer="1"/>
 <wire x1="46.69" y1="26" x2="49" y2="26" width="1.27" layer="1"/>
+<contactref element="GYRO" pad="4"/>
+<wire x1="22.47" y1="42" x2="17.5" y2="46.97" width="1.27" layer="1"/>
+<wire x1="17.5" y1="46.97" x2="17.5" y2="47" width="1.27" layer="1"/>
+<wire x1="17.5" y1="47" x2="17.28028125" y2="47" width="1.27" layer="1"/>
+<wire x1="17.28028125" y1="47" x2="15.66788125" y2="48.6124" width="1.27" layer="1"/>
+<wire x1="15.66788125" y1="48.6124" x2="8.6124" y2="48.6124" width="1.27" layer="1"/>
+<wire x1="8.6124" y1="48.6124" x2="1.651" y2="41.651" width="1.27" layer="1"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="BOX10P-L1" pad="P$6"/>

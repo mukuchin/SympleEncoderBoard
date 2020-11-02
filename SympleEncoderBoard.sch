@@ -11157,6 +11157,77 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 </deviceset>
 </devicesets>
 </library>
+<library name="B4B-XH-A_LF__SN_">
+<description>&lt;XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SHDR4W64P0X250_1X4_1240X575X70">
+<description>&lt;b&gt;B4B-XH-A(LF)(SN)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1.1" diameter="1.65"/>
+<pad name="3" x="5" y="0" drill="1.1" diameter="1.65"/>
+<pad name="4" x="7.5" y="0" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.7" y1="-2.6" x2="-2.7" y2="3.65" width="0.05" layer="51"/>
+<wire x1="-2.7" y1="3.65" x2="10.2" y2="3.65" width="0.05" layer="51"/>
+<wire x1="10.2" y1="3.65" x2="10.2" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="10.2" y1="-2.6" x2="-2.7" y2="-2.6" width="0.05" layer="51"/>
+<wire x1="-2.45" y1="-2.35" x2="-2.45" y2="3.4" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="3.4" x2="9.95" y2="3.4" width="0.1" layer="51"/>
+<wire x1="9.95" y1="3.4" x2="9.95" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="9.95" y1="-2.35" x2="-2.45" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="0" y1="-2.35" x2="9.95" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="9.95" y1="-2.35" x2="9.95" y2="3.4" width="0.2" layer="21"/>
+<wire x1="9.95" y1="3.4" x2="-2.45" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="3.4" x2="-2.45" y2="0" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B4B-XH-A_LF__SN_">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B4B-XH-A_LF__SN_" prefix="J">
+<description>&lt;b&gt;XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B4B-XH-A_LF__SN_" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SHDR4W64P0X250_1X4_1240X575X70">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A" constant="no"/>
+<attribute name="HEIGHT" value="7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B4B-XH-A(LF)(SN)" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="8201551P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201551P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11187,7 +11258,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <part name="ENCODER4" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="ENCODER_X" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="ENCODER_Y" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
-<part name="GYRO" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="BOX10P-L1" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
 <part name="U$2" library="SympleEncoderBoard" deviceset="BP5293-33" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150"/>
@@ -11198,6 +11268,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1μ"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1μ"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1μ"/>
+<part name="GYRO" library="B4B-XH-A_LF__SN_" deviceset="B4B-XH-A_LF__SN_" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11281,10 +11352,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <attribute name="NAME" x="223.51" y="-3.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="223.51" y="-5.92" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GYRO" gate="G$1" x="207" y="-33" smashed="yes">
-<attribute name="NAME" x="223.51" y="-25.38" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="223.51" y="-27.92" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="BOX10P-L1" gate="G$1" x="-4" y="16" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="41.18" y="133.46" smashed="yes"/>
 <instance part="R3" gate="G$1" x="32" y="93" smashed="yes" rot="R90">
@@ -11315,6 +11382,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <instance part="C7" gate="G$1" x="137" y="11" smashed="yes">
 <attribute name="NAME" x="138.524" y="11.381" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.524" y="6.301" size="1.778" layer="96"/>
+</instance>
+<instance part="GYRO" gate="G$1" x="207" y="-51" smashed="yes">
+<attribute name="NAME" x="223.51" y="-43.38" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="223.51" y="-45.92" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -11663,11 +11734,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <label x="193" y="-11" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GYRO" gate="G$1" pin="1"/>
-<wire x1="207" y1="-33" x2="200" y2="-33" width="0.1524" layer="91"/>
-<label x="194" y="-33" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="41.18" y1="123.46" x2="41.18" y2="102" width="0.1524" layer="91"/>
 <wire x1="41.18" y1="102" x2="41" y2="102" width="0.1524" layer="91"/>
@@ -11707,6 +11773,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="137" y1="5.92" x2="137" y2="1" width="0.1524" layer="91"/>
 <label x="137" y="-5" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="GYRO" gate="G$1" pin="1"/>
+<wire x1="207" y1="-51" x2="200" y2="-51" width="0.1524" layer="91"/>
+<label x="194" y="-51" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -11842,9 +11913,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 </segment>
 <segment>
 <pinref part="GYRO" gate="G$1" pin="3"/>
-<wire x1="207" y1="-38.08" x2="207" y2="-38" width="0.1524" layer="91"/>
-<wire x1="207" y1="-38" x2="200" y2="-38" width="0.1524" layer="91"/>
-<label x="189" y="-38" size="1.778" layer="95"/>
+<wire x1="207" y1="-56.08" x2="200" y2="-56.08" width="0.1524" layer="91"/>
+<wire x1="200" y1="-56.08" x2="200" y2="-56" width="0.1524" layer="91"/>
+<label x="189" y="-56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -12058,9 +12129,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 </segment>
 <segment>
 <pinref part="GYRO" gate="G$1" pin="2"/>
-<wire x1="207" y1="-35.54" x2="200" y2="-35.54" width="0.1524" layer="91"/>
-<wire x1="200" y1="-35.54" x2="200" y2="-36" width="0.1524" layer="91"/>
-<label x="189" y="-36" size="1.778" layer="95"/>
+<wire x1="207" y1="-53.54" x2="200" y2="-53.54" width="0.1524" layer="91"/>
+<wire x1="200" y1="-53.54" x2="200" y2="-54" width="0.1524" layer="91"/>
+<label x="189" y="-54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW4" class="0">
@@ -12256,12 +12327,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <label x="195" y="-19" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GYRO" gate="G$1" pin="4"/>
-<wire x1="207" y1="-40.62" x2="200" y2="-40.62" width="0.1524" layer="91"/>
-<wire x1="200" y1="-40.62" x2="200" y2="-41" width="0.1524" layer="91"/>
-<label x="195" y="-41" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="-60" y1="47.92" x2="-60" y2="48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12287,6 +12352,12 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201589P"&gt; Datashe
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-7.92" y1="53" x2="-6" y2="53" width="0.1524" layer="91"/>
 <label x="-5" y="53" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GYRO" gate="G$1" pin="4"/>
+<wire x1="207" y1="-58.62" x2="200" y2="-58.62" width="0.1524" layer="91"/>
+<wire x1="200" y1="-58.62" x2="200" y2="-59" width="0.1524" layer="91"/>
+<label x="195" y="-59" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
