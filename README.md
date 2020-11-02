@@ -1,1 +1,3 @@
-SympleSensorBoard
+SympleEncoderBoard
+エンコーダー用基板
+神山先輩の回路をEagleで改良したもの
