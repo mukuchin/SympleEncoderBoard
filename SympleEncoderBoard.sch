@@ -10417,12 +10417,12 @@ Source: www.kingbright.com</description>
 <package name="1005X4RESISTOR">
 <description>秋月電子　10k 通販コード[P-04664]</description>
 <smd name="1" x="0.2" y="-0.8" dx="0.4" dy="0.6" layer="1"/>
-<smd name="5" x="0.2" y="0.3" dx="0.4" dy="0.6" layer="1"/>
-<smd name="6" x="0.75" y="0.3" dx="0.3" dy="0.6" layer="1"/>
+<smd name="8" x="0.2" y="0.3" dx="0.4" dy="0.6" layer="1"/>
+<smd name="7" x="0.75" y="0.3" dx="0.3" dy="0.6" layer="1"/>
 <smd name="2" x="0.75" y="-0.8" dx="0.3" dy="0.6" layer="1"/>
 <smd name="3" x="1.25" y="-0.8" dx="0.3" dy="0.6" layer="1"/>
-<smd name="7" x="1.25" y="0.3" dx="0.3" dy="0.6" layer="1"/>
-<smd name="8" x="1.8" y="0.3" dx="0.4" dy="0.6" layer="1"/>
+<smd name="6" x="1.25" y="0.3" dx="0.3" dy="0.6" layer="1"/>
+<smd name="5" x="1.8" y="0.3" dx="0.4" dy="0.6" layer="1"/>
 <smd name="4" x="1.8" y="-0.8" dx="0.4" dy="0.6" layer="1"/>
 <wire x1="0" y1="0" x2="0" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="2" y1="0" x2="2" y2="-0.5" width="0.127" layer="21"/>
@@ -11701,7 +11701,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <wire x1="164" y1="-30" x2="164" y2="-22.62" width="0.1524" layer="91"/>
 <wire x1="164" y1="-22.62" x2="163.62" y2="-22.62" width="0.1524" layer="91"/>
 <junction x="163.62" y="-22.62"/>
-<label x="164" y="-36" size="1.778" layer="95" rot="R90"/>
+<label x="165" y="-36" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="ENCODER1" gate="G$1" pin="1"/>
