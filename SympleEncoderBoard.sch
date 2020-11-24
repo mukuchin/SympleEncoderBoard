@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11603,21 +11603,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <label x="174" y="68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="1" x2="130" y2="1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VSS_2"/>
-<wire x1="129.54" y1="15.24" x2="129.54" y2="1" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="1" x2="130" y2="1" width="0.1524" layer="91"/>
-<label x="130" y="-5" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="127" y1="6.92" x2="127" y2="1" width="0.1524" layer="91"/>
-<wire x1="127" y1="1" x2="128" y2="1" width="0.1524" layer="91"/>
-<label x="128" y="-5" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="95" y1="2.92" x2="95" y2="1" width="0.1524" layer="91"/>
 <label x="95" y="-5" size="1.778" layer="95" rot="R90"/>
@@ -11778,6 +11763,17 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <pinref part="GYRO" gate="G$1" pin="1"/>
 <wire x1="207" y1="-51" x2="200" y2="-51" width="0.1524" layer="91"/>
 <label x="194" y="-51" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="127" y1="6.92" x2="127" y2="1" width="0.1524" layer="91"/>
+<label x="127" y="-5" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS_2"/>
+<wire x1="129.54" y1="15.24" x2="129.54" y2="1" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="1" x2="129.5" y2="1" width="0.1524" layer="91"/>
+<label x="130" y="-5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="NRST" class="0">
