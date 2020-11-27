@@ -1,6 +1,5 @@
 "Part";"Value";"Device";"Package";"Description";"DESCRIPTION";"HEIGHT";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"POPULARITY";"RS_PART_NUMBER";"RS_PRICE-STOCK";"SPICEPREFIX";
 "ACK";"";"LEDCHIPLED_0603";"CHIPLED_0603";"LED";"";"";"";"";"";"";"";"";"28";"";"";"";
-"BOX10P-L1";"BOX10PBOX10P-L";"BOX10PBOX10P-L";"BOX10P-L";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "C1";"1μ";"C-EUC1608";"C1608";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"3";"";"";"C";
 "C2";"4.7μ";"C-EUC0603";"C0603";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"73";"";"";"C";
 "C3";"0.1μ";"C-EUC0603";"C0603";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"73";"";"";"C";
@@ -24,9 +23,10 @@
 "R3";"150";"R-US_R0603";"R0603";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"77";"";"";"R";
 "R4";"120";"R-US_R0603";"R0603";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"77";"";"";"R";
 "RX";"";"LEDCHIPLED_0603";"CHIPLED_0603";"LED";"";"";"";"";"";"";"";"";"28";"";"";"";
-"R_I1";"150";"R_SHUGOU";"0603X4RESISTOR";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"R_I1";"1k";"R_SHUGOU";"0603X4RESISTOR";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "S1";"219-08";"219-08";"CTS-219-08";"Surface Mount DIP Switch Series 219 SMT";"";"";"";"";"";"";"unknown";"unknown";"";"";"";"";
 "TX";"";"LEDCHIPLED_0603";"CHIPLED_0603";"LED";"";"";"";"";"";"";"";"";"28";"";"";"";
 "U$1";"BOX14P";"BOX14P";"CON_HEDA14P_1.27";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "U$2";"BP5293-33";"BP5293-33";"DC/DC_REGULATOR_3P";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "U$3";"MCP2562MCP2561-SN";"MCP2562MCP2561-SN";"SOIC8";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"U$4";"BOX10PBOX10P-L";"BOX10PBOX10P-L";"BOX10P-L";"";"";"";"";"";"";"";"";"";"";"";"";"";

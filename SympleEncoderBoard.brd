@@ -2005,7 +2005,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="28" x="-29" y="-47" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="37.04" y="19.675" size="1.27" layer="27"/>
 </element>
-<element name="R_I1" library="user_rcl" package="0603X4RESISTOR" value="150" x="35.42" y="22.24" smashed="yes" rot="MR270">
+<element name="R_I1" library="user_rcl" package="0603X4RESISTOR" value="1k" x="35.42" y="22.24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="34.15" y="22.2125" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="33.96" y="23.2125" size="1.27" layer="28" rot="MR270"/>
 </element>
