@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8175,16 +8175,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="0" y1="5.715" x2="-0.825" y2="5.715" width="0.127" layer="21"/>
 </package>
 <package name="BOX10P-L">
-<pad name="P$1" x="5.08" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$2" x="5.08" y="0" drill="0.6" shape="square"/>
-<pad name="P$3" x="2.54" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$4" x="2.54" y="0" drill="0.6" shape="square"/>
-<pad name="P$5" x="0" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$6" x="0" y="0" drill="0.6" shape="square"/>
-<pad name="P$7" x="-2.54" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$8" x="-2.54" y="0" drill="0.6" shape="square"/>
-<pad name="P$9" x="-5.08" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$10" x="-5.08" y="0" drill="0.6" shape="square"/>
+<pad name="P$1" x="5.08" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$2" x="5.08" y="0" drill="1.02" shape="square"/>
+<pad name="P$3" x="2.54" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$4" x="2.54" y="0" drill="1.02" shape="square"/>
+<pad name="P$5" x="0" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$6" x="0" y="0" drill="1.02" shape="square"/>
+<pad name="P$7" x="-2.54" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$8" x="-2.54" y="0" drill="1.02" shape="square"/>
+<pad name="P$9" x="-5.08" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$10" x="-5.08" y="0" drill="1.02" shape="square"/>
 <wire x1="-10.149965625" y1="-2" x2="-10.149965625" y2="-11" width="0.127" layer="21"/>
 <wire x1="-10.149965625" y1="-11" x2="-2.54" y2="-11" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-11" x2="-2.54" y2="-8.89" width="0.127" layer="21"/>
@@ -8201,16 +8201,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </polygon>
 </package>
 <package name="BOX10P-T">
-<pad name="P$1" x="-5.08" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$2" x="-5.08" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$3" x="-2.54" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$4" x="-2.54" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$5" x="0" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$6" x="0" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$7" x="2.54" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$8" x="2.54" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$9" x="5.08" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$10" x="5.08" y="1.27" drill="0.6" shape="square"/>
+<pad name="P$1" x="-5.08" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$2" x="-5.08" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$3" x="-2.54" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$4" x="-2.54" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$5" x="0" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$6" x="0" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$7" x="2.54" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$8" x="2.54" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$9" x="5.08" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$10" x="5.08" y="1.27" drill="1.02" shape="square"/>
 <wire x1="-10.16" y1="-4.55" x2="-1.27" y2="-4.55" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-4.55" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
@@ -8255,6 +8255,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="0" y1="3.175" x2="-0.825" y2="3.175" width="0.127" layer="21"/>
 <wire x1="0" y1="5.715" x2="-0.825" y2="5.715" width="0.127" layer="21"/>
 </package>
+<package name="BOX10P-MESU">
+<description>&lt;b&gt;2.54ピッチ10ピンボックスメスソケット（スルーホール）&lt;/b&gt;&lt;br&gt;
+digikey[S9194-ND]</description>
+<wire x1="-8.89" y1="0" x2="-8.89" y2="6" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="6" x2="8.89" y2="6" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="0" x2="-1.85" y2="0" width="0.127" layer="21"/>
+<wire x1="1.85" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="6" width="0.127" layer="21"/>
+<pad name="1" x="-5.08" y="1.73" drill="1.02"/>
+<pad name="3" x="-2.54" y="1.73" drill="1.02"/>
+<pad name="5" x="0" y="1.73" drill="1.02"/>
+<pad name="7" x="2.54" y="1.73" drill="1.02"/>
+<pad name="9" x="5.08" y="1.73" drill="1.02"/>
+<pad name="2" x="-5.08" y="4.27" drill="1.02"/>
+<pad name="4" x="-2.54" y="4.27" drill="1.02"/>
+<pad name="6" x="0" y="4.27" drill="1.02"/>
+<pad name="8" x="2.54" y="4.27" drill="1.02"/>
+<pad name="10" x="5.08" y="4.27" drill="1.02"/>
+<wire x1="-1.85" y1="-1" x2="1.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="0" x2="-1.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.85" y1="0" x2="1.85" y2="-1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BOX14PIN">
@@ -8278,20 +8300,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-2.54" y1="-20.32" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
 </symbol>
 <symbol name="BOX10P">
-<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$3" x="5.08" y="-10.16" length="middle" rot="R180"/>
-<pin name="P$4" x="5.08" y="-15.24" length="middle" rot="R180"/>
-<pin name="P$5" x="5.08" y="-20.32" length="middle" rot="R180"/>
-<pin name="P$6" x="5.08" y="-25.4" length="middle" rot="R180"/>
-<pin name="P$7" x="5.08" y="-30.48" length="middle" rot="R180"/>
-<pin name="P$8" x="5.08" y="-35.56" length="middle" rot="R180"/>
-<pin name="P$9" x="5.08" y="-40.64" length="middle" rot="R180"/>
-<pin name="P$10" x="5.08" y="-45.72" length="middle" rot="R180"/>
-<wire x1="-17.78" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="0" y1="-48.26" x2="-17.78" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-48.26" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="P$2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="P$3" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="P$4" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="P$5" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="P$6" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$7" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$8" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$9" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$10" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8323,7 +8345,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOX10P" prefix="BOX10P-L">
+<deviceset name="BOX10P">
 <gates>
 <gate name="G$1" symbol="BOX10P" x="7.62" y="22.86"/>
 </gates>
@@ -8363,6 +8385,23 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="" package="CON_HEDA10P_1.27">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BOX10PIN-MESU" package="BOX10P-MESU">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$10" pad="10"/>
@@ -11258,7 +11297,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <part name="ENCODER4" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="ENCODER_X" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
 <part name="ENCODER_Y" library="S4B-XH-A_LF__SN_" deviceset="S4B-XH-A_LF__SN_" device=""/>
-<part name="BOX10P-L1" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
 <part name="U$2" library="SympleEncoderBoard" deviceset="BP5293-33" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150"/>
 <part name="U$3" library="user_ic" deviceset="MCP2562" device="MCP2561-SN"/>
@@ -11269,6 +11307,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1μ"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1μ"/>
 <part name="GYRO" library="B4B-XH-A_LF__SN_" deviceset="B4B-XH-A_LF__SN_" device=""/>
+<part name="U$4" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
 </parts>
 <sheets>
 <sheet>
@@ -11352,7 +11391,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <attribute name="NAME" x="223.51" y="-3.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="223.51" y="-5.92" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="BOX10P-L1" gate="G$1" x="-4" y="16" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="41.18" y="133.46" smashed="yes"/>
 <instance part="R3" gate="G$1" x="32" y="93" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.5014" y="89.19" size="1.778" layer="95" rot="R90"/>
@@ -11387,6 +11425,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <attribute name="NAME" x="223.51" y="-43.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="223.51" y="-45.92" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="U$4" gate="G$1" x="-21" y="-3" smashed="yes"/>
 </instances>
 <busses>
 <bus name="+3.3V,GND,NRST,SWCLK,SWDIO,SWO,VCP_RX,VCP_TX">
@@ -11725,15 +11764,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <label x="42" y="96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$7"/>
-<wire x1="11" y1="-14" x2="11" y2="-14.48" width="0.1524" layer="91"/>
-<wire x1="11" y1="-14.48" x2="1.08" y2="-14.48" width="0.1524" layer="91"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$8"/>
-<wire x1="1.08" y1="-14.48" x2="1.08" y2="-19.56" width="0.1524" layer="91"/>
-<junction x="1.08" y="-14.48"/>
-<label x="12" y="-15" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="VSS"/>
 <wire x1="-45.7" y1="47.54" x2="-45.7" y2="48" width="0.1524" layer="91"/>
 <wire x1="-45.7" y1="48" x2="-60" y2="48" width="0.1524" layer="91"/>
@@ -11774,6 +11804,15 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <wire x1="129.54" y1="15.24" x2="129.54" y2="1" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="1" x2="129.5" y2="1" width="0.1524" layer="91"/>
 <label x="130" y="-5" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$7"/>
+<wire x1="11" y1="-13" x2="-5.76" y2="-13" width="0.1524" layer="91"/>
+<wire x1="-5.76" y1="-13" x2="-5.76" y2="-13.16" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$8"/>
+<wire x1="-5.76" y1="-18.24" x2="-5.76" y2="-13.16" width="0.1524" layer="91"/>
+<junction x="-5.76" y="-13.16"/>
+<label x="12" y="-14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -12326,15 +12365,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <wire x1="-60" y1="47.92" x2="-60" y2="48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$10"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$9"/>
-<wire x1="1.08" y1="-29.72" x2="1.08" y2="-24.64" width="0.1524" layer="91"/>
-<wire x1="11" y1="-25" x2="1.08" y2="-25" width="0.1524" layer="91"/>
-<wire x1="1.08" y1="-25" x2="1.08" y2="-24.64" width="0.1524" layer="91"/>
-<junction x="1.08" y="-24.64"/>
-<label x="12" y="-25" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="VDD"/>
 <wire x1="-45.7" y1="42.46" x2="-60" y2="42.46" width="0.1524" layer="91"/>
 <wire x1="-60" y1="42.46" x2="-60" y2="42" width="0.1524" layer="91"/>
@@ -12355,14 +12385,17 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <wire x1="200" y1="-58.62" x2="200" y2="-59" width="0.1524" layer="91"/>
 <label x="195" y="-59" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$10"/>
+<pinref part="U$4" gate="G$1" pin="P$9"/>
+<wire x1="-5.76" y1="-28.4" x2="-5.76" y2="-23.32" width="0.1524" layer="91"/>
+<wire x1="11" y1="-23" x2="11" y2="-23.32" width="0.1524" layer="91"/>
+<wire x1="11" y1="-23.32" x2="-5.76" y2="-23.32" width="0.1524" layer="91"/>
+<junction x="-5.76" y="-23.32"/>
+<label x="12" y="-24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAN_L" class="0">
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$6"/>
-<wire x1="11" y1="-9" x2="11" y2="-9.4" width="0.1524" layer="91"/>
-<wire x1="11" y1="-9.4" x2="1.08" y2="-9.4" width="0.1524" layer="91"/>
-<label x="12" y="-10" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="CANL"/>
 <wire x1="-20.3" y1="42.46" x2="-17" y2="42.46" width="0.1524" layer="91"/>
@@ -12374,14 +12407,14 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <junction x="-13" y="39.92"/>
 <label x="-5" y="40" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$6"/>
+<wire x1="11" y1="-8" x2="-5.76" y2="-8" width="0.1524" layer="91"/>
+<wire x1="-5.76" y1="-8" x2="-5.76" y2="-8.08" width="0.1524" layer="91"/>
+<label x="12" y="-8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAN_H" class="0">
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$5"/>
-<wire x1="11" y1="-4" x2="1.08" y2="-4" width="0.1524" layer="91"/>
-<wire x1="1.08" y1="-4" x2="1.08" y2="-4.32" width="0.1524" layer="91"/>
-<label x="12" y="-4" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="CANH"/>
 <wire x1="-20.3" y1="47.54" x2="-17" y2="47.54" width="0.1524" layer="91"/>
@@ -12392,6 +12425,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <wire x1="-13" y1="50" x2="-13" y2="50.08" width="0.1524" layer="91"/>
 <junction x="-13" y="50.08"/>
 <label x="-5" y="50" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<wire x1="11" y1="-3" x2="-5.76" y2="-3" width="0.1524" layer="91"/>
+<label x="12" y="-4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -12405,11 +12443,12 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 <label x="39" y="95" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$1"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$2"/>
-<wire x1="1.08" y1="16" x2="1.08" y2="10.92" width="0.1524" layer="91"/>
-<wire x1="11" y1="16" x2="1.08" y2="16" width="0.1524" layer="91"/>
-<junction x="1.08" y="16"/>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="-5.76" y1="12.24" x2="-5.76" y2="17.32" width="0.1524" layer="91"/>
+<wire x1="11" y1="17" x2="-5.76" y2="17" width="0.1524" layer="91"/>
+<wire x1="-5.76" y1="17" x2="-5.76" y2="17.32" width="0.1524" layer="91"/>
+<junction x="-5.76" y="17.32"/>
 <label x="12" y="16" size="1.778" layer="95"/>
 </segment>
 </net>
