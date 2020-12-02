@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11941,16 +11941,16 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201551P"&gt; Datashe
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC11"/>
-<wire x1="124.46" y1="88.9" x2="124.46" y2="106" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="106" x2="124" y2="106" width="0.1524" layer="91"/>
-<label x="125" y="107" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="GYRO" gate="G$1" pin="3"/>
 <wire x1="207" y1="-56.08" x2="200" y2="-56.08" width="0.1524" layer="91"/>
 <wire x1="200" y1="-56.08" x2="200" y2="-56" width="0.1524" layer="91"/>
 <label x="189" y="-56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC12"/>
+<wire x1="121.92" y1="88.9" x2="121.92" y2="106" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="106" x2="122" y2="106" width="0.1524" layer="91"/>
+<label x="122" y="107" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
