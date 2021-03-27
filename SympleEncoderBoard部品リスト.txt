@@ -1,0 +1,41 @@
+Partlist
+
+Exported from SympleEncoderBoard.brd at 2021/02/16 14:25
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part      Value             Package                        Library            Position (mm)         Orientation
+
+ACK                         CHIPLED_0603                   led                (38.31 19.53)         R270
+C1        1?                C1608                          rcl                (18.69 25.23)         MR270
+C2        4.7?              C0603                          rcl                (24.53 23.68)         MR0
+C3        0.1?              C0603                          rcl                (21.31 23.68)         MR0
+C4        0.1?              C1608                          rcl                (34 35)               MR0
+C5        0.1?              C0603                          rcl                (19 31)               MR180
+C6        0.1?              C0603                          rcl                (26.1 30.5)           MR270
+C7        0.1?              C0603                          rcl                (26.6 18.9)           R180
+ENCODER1  S4B-XH-A_LF__SN_  SHDRRA4W64P0X250_1X4_1240X1150 S4B-XH-A_LF__SN_   (25.13 4.46)          R180
+ENCODER2  S4B-XH-A_LF__SN_  SHDRRA4W64P0X250_1X4_1240X1150 S4B-XH-A_LF__SN_   (40.45 4.46)          R180
+ENCODER3  S4B-XH-A_LF__SN_  SHDRRA4W64P0X250_1X4_1240X1150 S4B-XH-A_LF__SN_   (46.54 17.77)         R270
+ENCODER4  S4B-XH-A_LF__SN_  SHDRRA4W64P0X250_1X4_1240X1150 S4B-XH-A_LF__SN_   (46.32 33.13)         R270
+ENCODER_X S4B-XH-A_LF__SN_  SHDRRA4W64P0X250_1X4_1240X1150 S4B-XH-A_LF__SN_   (4.68 10.55)          R90
+ENCODER_Y S4B-XH-A_LF__SN_  SHDRRA4W64P0X250_1X4_1240X1150 S4B-XH-A_LF__SN_   (4.68 25.23)          R90
+ERROR                       CHIPLED_0603                   led                (38.38 25.07)         R270
+GYRO      B4B-XH-A_LF__SN_  SHDR4W64P0X250_1X4_1240X575X70 B4B-XH-A_LF__SN_   (10 39)               R90
+IC1       STM32F446RET6     QFP50P1200X1200X160-64N        STM32F446RET6      (22.5 27.18)          R0
+OSC1                        CSTNE#                         user_osc           (13.31 30.15)         R270
+POWER                       CHIPLED_0603                   led                (38.38 16.26)         R270
+R1        10k               R0603                          rcl                (21.67 30.49)         MR270
+R2        10k               R0603                          rcl                (30 36)               R270
+R3        150               R0603                          rcl                (35 16)               R180
+R4        120               R0603                          rcl                (34 37.4)             MR0
+RX                          CHIPLED_0603                   led                (38.31 21.58)         R270
+R_I1      1k                0603X4RESISTOR                 user_rcl           (35.42 22.24)         MR270
+S1        219-08            CTS-219-08                     switch-dil         (19.33 11.69)         R0
+TX                          CHIPLED_0603                   led                (38.31 23.39)         R270
+U$1       BOX14P            CON_HEDA14P_1.27               user_conector      (18.88 40.72)         R270
+U$2       BP5293-33         DC/DC_REGULATOR_3P             SympleEncoderBoard (38.88 40.77)         R270
+U$3       MCP2562MCP2561-SN SOIC8                          user_ic            (34 36)               R90
+U$4       BOX10PBOX10P-L    BOX10P-L                       user_conector      (25.4 48)             R180
